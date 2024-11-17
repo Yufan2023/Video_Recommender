@@ -46,10 +46,10 @@ The dataset should be placed in the data/ folder as netflix_titles.csv. The data
  
 ## 5. Models
    ### 1. Scikit-learn (Random Forest Classifier)
-       -Uses cosine similarity from textual and metadata features as inputs.
-       -Predicts whether pairs of titles are similar using a Random Forest Classifier.
-       -Generates recommendations based on learned weights.
+       - Uses cosine similarity from textual and metadata features as inputs.
+       - Predicts whether pairs of titles are similar using a Random Forest Classifier.
+       - Generates recommendations based on learned weights.
    ### 2. TensorFlow (Neural Network)
-       -Uses a deep neural network to dynamically predict similarity probabilities.
-       -Incorporates textual and metadata similarities as input features.
+       - Uses a deep neural network to dynamically predict similarity probabilities.
+       - Incorporates textual and metadata similarities as input features.
 
