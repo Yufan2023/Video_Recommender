@@ -75,4 +75,6 @@ Modify the ```example_title``` variable in ```sklearn_recommendation.py``` or ``
 - In Scikit-learn, tweak the Random Forest parameters (e.g., n_estimators, max_depth).
 - In TensorFlow, modify the neural network architecture (e.g., number of layers, neurons, or epochs).
 
+## 8. License
+This project is licensed under the MIT License.
 
