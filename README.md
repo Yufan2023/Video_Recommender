@@ -27,7 +27,7 @@ To run this project, you will need:
   ```
 
 ## How It Works
-1. Dataset
+1. Dataset: <br>
 The dataset should be placed in the data/ folder as netflix_titles.csv. The dataset must include the following columns:
 
 - ```title```: The name of the Netflix title.
@@ -36,3 +36,9 @@ The dataset should be placed in the data/ folder as netflix_titles.csv. The data
 - ```duration```: Duration of the content (e.g., "90 min" or "2 Seasons").
 - ```release_year```: The year the content was released.
 - ```country```: The country of origin.
+2. Text and Metadata Features: <br>
+- ```Textual Features```: Combines ```listed_in``` and ```description``` and processes them using TF-IDF Vectorization.
+- ```Metadata Features```:
+     - ```release_year```: Normalized to a range of [0, 1].
+     - ```duration```: Converted to numeric values (e.g., "2 Seasons" → 120 minutes).
+     - ```country```: One-hot encoded for regional analysis.
