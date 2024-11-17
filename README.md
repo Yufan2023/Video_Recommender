@@ -37,8 +37,8 @@ The dataset should be placed in the data/ folder as netflix_titles.csv. The data
 - ```release_year```: The year the content was released.
 - ```country```: The country of origin.
 2. Text and Metadata Features: <br>
-- ```Textual Features```: Combines ```listed_in``` and ```description``` and processes them using TF-IDF Vectorization.
-- ```Metadata Features```:
+- Textual Features: Combines ```listed_in``` and ```description``` and processes them using TF-IDF Vectorization.
+- Metadata Features:
      - ```release_year```: Normalized to a range of [0, 1].
      - ```duration```: Converted to numeric values (e.g., "2 Seasons" → 120 minutes).
      - ```country```: One-hot encoded for regional analysis.
