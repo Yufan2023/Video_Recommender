@@ -21,7 +21,7 @@ To run this project, you will need:
 - Python 3.7 or higher
 - Required Python libraries (see requirements.txt)
 
-  # Install Dependencies
+  Install Dependencies
   ```bash
   pip install -r requirements.txt
   ```
