@@ -52,4 +52,27 @@ The dataset should be placed in the data/ folder as netflix_titles.csv. The data
 2. TensorFlow (Neural Network)
    - Uses a deep neural network to dynamically predict similarity probabilities.
    - Incorporates textual and metadata similarities as input features.
+  
+## 6. Usage
+### 1. Run the Scikit-learn Implementation
+Execute the following command: <br>
+```bash
+python src/sklearn_recommendation.py
+```
+### 2. Run the TensorFlow Implementation
+Execute the following command: <br>
+```bash
+python src/tensorflow_recommendation.py
+```
+
+## 7. Customization
+1. Change the Input Title: <br>
+Modify the ```example_title``` variable in ```sklearn_recommendation.py``` or ```tensorflow_recommendation.py``` to get recommendations for a different title:
+   ```bash
+   example_title = "Squid Game"  # Replace with a valid title
+   ```
+2. Adjust Model Parameters:<br>
+- In Scikit-learn, tweak the Random Forest parameters (e.g., n_estimators, max_depth).
+- In TensorFlow, modify the neural network architecture (e.g., number of layers, neurons, or epochs).
+
 
