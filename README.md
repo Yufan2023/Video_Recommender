@@ -25,3 +25,14 @@ To run this project, you will need:
   ```bash
   pip install -r requirements.txt
   ```
+
+## How It Works
+1. Dataset
+The dataset should be placed in the data/ folder as netflix_titles.csv. The dataset must include the following columns:
+
+```title```: The name of the Netflix title.
+```listed_in```: The genres/categories of the content.
+```description```: A brief description of the content.
+```duration```: Duration of the content (e.g., "90 min" or "2 Seasons").
+```release_year```: The year the content was released.
+```country```: The country of origin.
