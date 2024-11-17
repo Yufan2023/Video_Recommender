@@ -5,4 +5,5 @@ This project demonstrates a content-based recommendation system for Netflix titl
 
  1. Scikit-learn Implementation: A machine learning-based recommendation system using a Random Forest Classifier.
  2. TensorFlow Implementation: A deep learning-based recommendation system using a Neural Network.
+
 The system recommends similar Netflix titles based on their genres, descriptions, release year, duration, and country of origin.
