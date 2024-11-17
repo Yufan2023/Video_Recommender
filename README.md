@@ -19,7 +19,7 @@ The system recommends similar Netflix titles based on their genres, descriptions
 To run this project, you will need:
 
 - Python 3.7 or higher
-- Required Python libraries (see requirements.txt)
+- Required Python libraries (see ```requirements.txt```)
 
 ### Install Dependencies
   ```bash
@@ -28,7 +28,7 @@ To run this project, you will need:
 
 ## 4. How It Works
 1. Dataset: <br>
-The dataset should be placed in the data/ folder as netflix_titles.csv. The dataset must include the following columns:
+The dataset should be placed as netflix_titles.csv. The dataset must include the following columns:
 
 - ```title```: The name of the Netflix title.
 - ```listed_in```: The genres/categories of the content.
@@ -72,7 +72,7 @@ Modify the ```example_title``` variable in ```sklearn_recommendation.py``` or ``
    example_title = "Squid Game"  # Replace with a valid title
    ```
 2. Adjust Model Parameters:<br>
-- In Scikit-learn, tweak the Random Forest parameters (e.g., n_estimators, max_depth).
+- In Scikit-learn, tweak the Random Forest parameters (e.g., ```n_estimators```, ```max_depth```).
 - In TensorFlow, modify the neural network architecture (e.g., number of layers, neurons, or epochs).
 
 ## 8. License
