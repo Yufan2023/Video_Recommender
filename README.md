@@ -7,3 +7,10 @@ This project demonstrates a content-based recommendation system for Netflix titl
  2. TensorFlow Implementation: A deep learning-based recommendation system using a Neural Network.
 
 The system recommends similar Netflix titles based on their genres, descriptions, release year, duration, and country of origin.
+
+## Features
+- Preprocesses data to extract both textual and metadata features.
+- Implements TF-IDF Vectorization to analyze textual data (listed_in and description).
+- Uses cosine similarity to measure content similarity.
+- Dynamically learns feature weights through machine learning or deep learning.
+- Provides recommendations for a given title.
