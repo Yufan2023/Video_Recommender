@@ -26,7 +26,7 @@ To run this project, you will need:
   pip install -r requirements.txt
   ```
 
-## How It Works
+## 4. How It Works
 1. Dataset: <br>
 The dataset should be placed in the data/ folder as netflix_titles.csv. The dataset must include the following columns:
 
@@ -37,9 +37,19 @@ The dataset should be placed in the data/ folder as netflix_titles.csv. The data
 - ```release_year```: The year the content was released.
 - ```country```: The country of origin.
 2. Text and Metadata Features: <br>
-- Textual Features:
+- Textual Features: <br>
        Combines ```listed_in``` and ```description``` and processes them using TF-IDF Vectorization.
 - Metadata Features:
      - ```release_year```: Normalized to a range of [0, 1].
      - ```duration```: Converted to numeric values (e.g., "2 Seasons" → 120 minutes).
      - ```country```: One-hot encoded for regional analysis.
+ 
+## 5. Models
+   ### 1. Scikit-learn (Random Forest Classifier)
+       -Uses cosine similarity from textual and metadata features as inputs.
+       -Predicts whether pairs of titles are similar using a Random Forest Classifier.
+       -Generates recommendations based on learned weights.
+   ### 2. TensorFlow (Neural Network)
+       -Uses a deep neural network to dynamically predict similarity probabilities.
+       -Incorporates textual and metadata similarities as input features.
+
